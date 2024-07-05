@@ -11,7 +11,7 @@ sidebar:
 
     # Profile information
     name: Herry Zhouldy
-    tagline: <em>A versatile yet down-to-earth</em><font color="white"><b> Application Specialist </b></font><em>who loved to learn and not afraid to roll up his sleeve</em>
+    tagline: <em>A versatile yet down-to-earth</em><font color="white"><b> Technical Support Specialist </b></font><em>who loved to learn and not afraid to roll up his sleeve</em>
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -24,7 +24,7 @@ sidebar:
     github-link: https://github.com/hz81
     website: Herry's CV
     website-link: https://ts001.hzy10.com
-    download-file: https://1drv.ms/w/s!AvF_WyEroz-p0eoAWaCAGtZLqrlxrA?e=o3LLis
+    download-file: https://1drv.ms/w/s!AvF_WyEroz-p0eoEqxyyI_OwGylHtA?e=PGk07i
 
     characters:
       title: Characters
@@ -81,7 +81,7 @@ qualifications:
 highlights:
     title: Professional Summary
     summary: |
-        A success-oriented Application Specialist with 10+ years of industry expertise, <br>
+        A success-oriented Technical Support Specialist with 10+ years of industry expertise, <br>
         primarily as a support engineer across multiple organisations' critical systems. <br>
         Skilled in Agile software development life cycle. <br> 
         Competent in identifying, troubleshooting, and resolving problems related to technical computer hardware and software. <br>
