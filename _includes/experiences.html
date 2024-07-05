@@ -1,0 +1,41 @@
+{% assign experiences = site.data.data.experiences %}
+{% if experiences %}
+<div class="gap-navbar" id="s-experiences"></div>
+<sectionwithgap class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ experiences.title }}
+  </h2>
+
+  {% for experience in experiences.info %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h3 class="job-title">{{ experience.role }}</h3>
+        <div class="time">{{ experience.time }}</div>
+      </div>
+      <div class="company">
+        {{ experience.company }}<br>
+        {% if experience.site %}
+          <a class="mainwrapper-02-link" href="{{ experience.site }}" target="_blank">{{ experience.site }}</a>
+        {% endif %}
+      </div>
+
+    </div>
+    {% if experience.details %}
+      <div class="details">
+        {{ experience.details | markdownify }}
+      </div>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+
+</sectionwithgap>
+{% endif %}
+

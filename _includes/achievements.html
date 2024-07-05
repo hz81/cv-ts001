@@ -1,0 +1,31 @@
+{% assign achievements = site.data.data.achievements %}
+{% if achievements %}
+<div class="gap-navbar" id="s-achievements"></div>
+  <sectionwithgap class="section skills-a-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-box-open fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ achievements.title }}
+    </h2>
+
+    {% for contribution in achievements.contributions %}
+    <ul class="list-style">
+      <li>{{ contribution.desc }}</li>
+      {% if contribution.links %}
+        {% for link in contribution.links %}
+          <div class="details">
+            <ul class="list-unstyled">
+              <li><a class="mainwrapper-01-link" href="{{ link.url }}" target="_blank">{{ link.urldesc }}</a></li>
+              {% if link.urlatt %}
+                {{ link.urlatt | markdownify }}
+              {% endif %}
+            </ul>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </ul>
+    {% endfor %}
+  </sectionwithgap>
+{% endif %}

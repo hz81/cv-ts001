@@ -1,0 +1,16 @@
+{% assign characters = site.data.data.sidebar.characters %}
+{% if characters %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    {{ characters.title }}
+  </h2>
+
+  <ul class="list-style interests-list">
+    {% for character in characters.info %}
+      <li>{{ character.item }}</li>
+    {% endfor %}
+  </ul>
+
+</div><!--//interests-->
+{% endif %}

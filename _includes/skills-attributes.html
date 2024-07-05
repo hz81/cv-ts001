@@ -1,0 +1,25 @@
+{% assign skills-attributes = site.data.data.skills-attributes %}
+{% if skills-attributes %}
+<div class="gap-navbar"></div>
+  <sectionwithgap class="section skills-a-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ skills-attributes.title }}
+    </h2>
+
+    {% for skill in skills-attributes.skill %}
+      <div class="item">
+        <span class="skills-a-title">
+          {{ skill.title }}
+        </span>
+
+        {% if skill.desc %}
+        - <span class="project-tagline">{{ skill.desc }}</span>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </section>    
+{% endif %}

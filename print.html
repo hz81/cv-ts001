@@ -1,0 +1,18 @@
+---
+layout: print
+permalink: /print
+---
+
+{% include highlights.html %}
+
+{% unless site.data.data.sidebar.qualifications %}
+  {% include qualifications.html %}
+{% endunless %}
+
+{% include skills-attributes.html %}
+
+{% include skills-tech.html %}
+
+{% include achievements.html %}
+
+{% include experiences.html %}

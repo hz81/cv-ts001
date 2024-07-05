@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% include highlights.html %}
+
+{% unless site.data.data.sidebar.qualifications %}
+  {% include qualifications.html %}
+{% endunless %}
+
+{% include experiences.html %}
+
+{% include skills-tech.html %}
+
+{% include skills-attributes.html %}
+
+{% include achievements.html %}

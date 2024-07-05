@@ -1,0 +1,227 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+headermenu:
+    cover-letter: https://1drv.ms/w/s!AvF_WyEroz-p0eZKSJesv1ztBFNFTA?e=Wxjlei
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    qualifications: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Herry Zhouldy
+    tagline: <em>A versatile yet down-to-earth</em><font color="white"><b> Application Specialist </b></font><em>who loved to learn and not afraid to roll up his sleeve</em>
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: zould1618@gmail.com
+    phone: +6422 496 9030
+    address: Halswell, Christchurch
+    linkedin: zould1618
+    linkedin-link: https://id.linkedin.com/in/zould1618
+    github: hz81
+    github-link: https://github.com/hz81
+    website: Herry's CV
+    website-link: https://as001.hzy10.com
+    download-file: https://1drv.ms/w/s!AvF_WyEroz-p0eoAWaCAGtZLqrlxrA?e=o3LLis
+
+    characters:
+      title: Characters
+      info:
+        - item: Self-determined and motivated achiever; Result driven
+        - item: High initiative and proactive; Positive can-do attitude
+        - item: Love to contribute; Excellent team player
+        - item: Passionate to learn new things; Easy to adapt person
+        - item: Keen to find solutions; Problem-solving oriented
+        - item: Well organized person; Attention do detail
+        - item: Friendly and attentive listener
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: Bahasa
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Reading
+          link:
+
+        - item: Hiking
+          link:
+
+        - item: Cycling
+          link:
+
+        - item: Swimming
+          link:          
+
+qualifications:
+    title: Qualifications
+    info:
+      - degree: Bachelor in Information Systems Management
+        university: Binus University of Jakarta
+        time: 2000 - 2004
+        gpa: "GPA: 3.04"
+        site: https://binus.ac.id
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point        
+
+highlights:
+    title: Professional Summary
+    summary: |
+        A success-oriented Application Specialist with 10+ years of industry expertise, <br>
+        primarily as a support engineer across multiple organisations' critical systems. <br>
+        Skilled in Agile software development life cycle. <br> 
+        Competent in identifying, troubleshooting, and resolving problems related to technical computer hardware and software. <br>
+        A positive can-do attitude and a dedicated learner aiming to enhance lives through innovation, 
+        who has proven success in maintaining communication during the resolution and conveying progress updates with a friendly manner.<br>
+        Familiar with Microsoft and Linux Ubuntu ecosystem. <br>
+        Proficient in nurturing legacy systems while implementing upgrades. <br>
+        Highly-productive and easy-to-adapt person.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Application Support Specialist
+        time: Jul 2023 - Jul 2024
+        company: Ryman Healthcare Ltd, Christchurch • Healthcare Services & Property Development
+        site: https://www.rymanhealthcare.co.nz
+        details: |
+            - <b>Technical Project Management</b>: Organised and performed installation upgrades, patches, and hot fixes for a portfolio of applications assigned. Delivered five upgrades for three tier one applications and an upgrade for ServiceNow from Tokyo to Vancouver version.
+            - <b>System Integration</b>: Developed and established integration point between ServiceNow and Azure DevOps to facilitate Agile work stream. Configured automated synchronisation for WorkLeap’s user group using Active Directory and Dynamic Groups.
+            - <b>ServiceNow Development</b>: Developed and promoted six ServiceNow forms to elevate user experience.
+            - <b>Identity Management</b>: Designed Sailpoint’s user access review campaign for identity management audit purpose. Coordinated an initial SSO configuration for Upguard implementation, a third-party risk and attack surface management software. Managing user access roles, permission, profiles, and groups on application and database level.
+            - Created Sailpoint user access review campaign of office and village users for 2023 audit purpose.
+            - <b>Problem Resolution</b>: Troubleshooting and resolving issues while maintaining communication with stakeholders during the resolution time. Managed to keep 97% of tickets assigned within the SLA time.
+            - <b>Trusted Technical Advisor</b>: Providing level two and three escalation point of support.
+            - <b>Knowledge Sharing</b>: Providing documentation and knowledge articles for teams and users.
+      - role: Systems Engineer
+        time: Jun 2022 - Jun 2023
+        company: Xcidic Pte. Ltd, Singapore • IT Solution Provider
+        site: https://xcidic.com
+        details: |
+            - Led, organised, implemented, and preserved the entire infrastructure environment to serve organisational objectives and operations. Fulfil 98% of the Service Level Agreement (SLA) in most aspects.
+            - Orchestrated requirement gathering session to align with internal and external stakeholders. More than 96% of the requirements have been delivered accordingly and in a timely manner.
+            - Directed a six-member cross-functional (coders, QA, and UI/UX) team to deploy a cutting-edge mobile app that is secure and reliable, simplifying payment and class management for parents, students, and educators. It contributes up to 40% of the organisation’s annual income.
+            - Established code-base templates and DevSecOps procedures to accelerate the development process up to 50% while making it secure and reliable by implementing Software Composition Analysis (SCA) tools.
+            - Implemented ITSM in product maintenance, which increased the continuity of the strategic partnership with the client by up to 85%.
+      - role: Systems Engineer
+        time: Apr 2019 - May 2022
+        company: Korea Development Bank - Tifa Finance • Finance & Leasing Company
+        site: https://www.kdbtifa.co.id/en
+        details: |
+            - Explored diverse solutions, evaluating risks, benefits, and impacts, then presented impactful recommendations to the executives while ensuring consistent progress updates. 85% of the inputs were successfully approved and executed.
+            - Enforced advanced technology and systems. On average, there were three new advancements executed each year.
+            - Organise workshops and training sessions. Successfully presented the material and gathered positive feedback from the audience.
+            - Managed a five-member cross-division (coders, QA, and UI/UX) team to build and deliver a comprehensive corporate profile website with a content management system. This channel boosted the number of potential customers by more than 70%.
+            - Directed a four-member of coder team and collaborated with seven business partners to deploy and operate a customised ERP system on Xen servers to support the business and operational activities. The system had effectively converted 95% of the entire manual process to digital.
+            - Established a B2B system integration by deploying an application with the microservices concept. The integration reduced the operational costs by 30% annually.        
+      - role: System Support Engineer
+        time: Jan 2012 - Feb 2019
+        company: Manulife Financial - Life Insurance Company
+        site: https://www.manulife.co.id
+        details: |
+            - Spearheaded the continuous improvement of system and process automation. Deployed an automated End-of-Day scheduler that cut the cost of the operators.
+            - Engaged and cultivated partnerships with key stakeholders to comprehend and fulfil organisational needs. More than 96% of the requirements were delivered accordingly and in a timely manner.
+            - Led a team to execute a core system migration to a data centre in Kuala Lumpur, Malaysia. The new environment had enhanced the system’s performance by up to 25% compared to the previous environment.
+            - Published a revamped responsive application that serves retail customers using various devices. The channel increased sales lead generation by 35%.
+      - role: Technical Analyst
+        time: Nov 2005 - Jan 2012
+        company: Mega Auto Finance - Motorcycle Leasing Company
+        site: http://www.maf.co.id
+        details: |
+            - Developed, architected, and executed robust IT infrastructure. Successfully implemented server ecosystem by using VMware.
+            - Collaborated with cross-functional teams to deliver and deploy an upgraded core system. It supported 98% of the entire business process for both retail customers and internal back-office users.
+            - Published enhancements to improve payment collection processing time to less than a second on average.
+
+skills-tech:
+    title: Technical Skills
+    toolset:
+      - group: "Cloud & collaboration services"
+        name: "Azure, Active Directory, M365, Github, Google Workspace, Jira, AWS"
+        level: 90%
+
+      - group: "Infrastructure" 
+        name: "IIS, VMware, XCP-ng, Winbox"
+        level: 90%
+
+      - group: "Database"
+        name: "SQL Server, Oracle, MySQL, PostgreSQL"
+        level: 90%
+
+      - group: "Framework"
+        name: ".Net, MVC, ReactJS, NodeJS"
+        level: 80%
+
+      - group: "Environment"
+        name: "SSMS, Ms. Visual Studio, VS. Code, PL/SQL, Ms. Power BI, Google Looker Studio, Service Now"
+        level: 85%
+
+      - group: "Language"
+        name: "SQL, C#, TypeScript, JavaScript, HTML, CSS, VB"
+        level: 80%
+
+      - group: "Operating System" 
+        name: "Windows, Linux Ubuntu"
+        level: 95%
+
+skills-attributes:
+    title: Skills Attributes
+    skill:
+      - title: Analysis skill
+        desc: "Solid understanding of translating requirements into applicable solutions; Perform effective troubleshooting in all cases and properly solve the issue by applying best practices methods that will hold for the longest time possible"
+
+      - title: Problem-solving skill
+        desc: "A broad range of experience in applying best practise approaches to come up with creative workaround solutions; Demonstrated success in maintaining legacy systems during upgrades"
+
+      - title: Management skill
+        desc: "Adept at managing the priorities of the product/service roadmap and backlog; Competent in delivering projects using the Agile method, as proven by completing projects that convert into products/services"
+
+      - title: Organization skill
+        desc: "Confident in managing the expectations of users and stakeholders; Capable of establishing collaboration between teams, departments, and senior management"
+
+      - title: Interpersonal skill
+        desc: "Proven ability to build stakeholder and user engagement; Oversee the implementation of product changes and communicate the impact to stakeholders, users, customers, and teams"
+
+      - title: Communication skill
+        desc: "Good written and verbal communication skills; Competent languages: English (Professional), Bahasa (Native)"
+
+achievements:
+    title: Portfolios
+    contributions:
+      - desc: "Led and organised a team to deliver a seamless, robust, and secure mobile application that facilitates payment and class management across parents, students, and educators in the Singapore region"
+        links:
+          - url: https://play.google.com/store/apps/details?id=com.tuut
+            urldesc: Google PlayStore
+            urlatt:
+          - url: https://apps.apple.com/sg/app/tuut/id6446396937
+            urldesc: Apple AppStore
+            urlatt:
+      - desc: "Developed and implemented a performance monitoring dashboard called ikankita.org using SQL Server, .Net core, and Google Data Studio"
+        links:
+          - url: https://ikankita.org
+            urldesc: ikankita.org
+            urlatt:
+      - desc: "Orchestrated a team to deploy a company profile website complete with its content management system"
+        links:
+          - url: https://www.kdbtifa.co.id/en
+            urldesc: kdbtifa.co.id
+            urlatt:
+          - url: https://www.kdbtifa.co.id/backend/backend/auth/signin
+            urldesc: CMS
+            urlatt:
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
